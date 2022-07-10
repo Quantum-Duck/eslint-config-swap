@@ -6,7 +6,10 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/Quantum-Duck/eslint-config-swap.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quantum-Duck/eslint-config-swap.git"
+  },
   "license": "MIT",
   "author": "RabbitDoge",
   "private": false,
@@ -27,5 +30,15 @@
   "peerDependencies": {
     "eslint": "^7.2.0",
     "prettier": "^2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Quantum-Duck/eslint-config-swap/issues"
+  },
+  "homepage": "https://github.com/Quantum-Duck/eslint-config-swap#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
